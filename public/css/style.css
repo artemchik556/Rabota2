@@ -1,0 +1,30 @@
+.zacasi{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.zacas ul li{
+    text-decoration: none;
+    list-style: none;
+    padding-right: 25px;
+    color: blue;
+}
+.zacas{
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.click{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+.click:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
